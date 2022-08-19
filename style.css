@@ -40,3 +40,24 @@ iframe#tela {
     width: 12.49rem;
     height: 22.1rem;
 }
+
+/*section#redes {
+    text-align: right;
+}*/
+
+section#redes img {
+    width: 5rem;
+    margin: .3rem;
+    padding: .3rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    /*box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);*/
+}
+
+section#redes img:hover {
+    border: .2rem solid rgba(255, 255, 255, 0.300);
+    /*transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);*/
+    transition: border .1s ;
+    
+}
