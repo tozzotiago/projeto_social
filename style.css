@@ -12,9 +12,10 @@ html, body {
 }
 
 body {
-    background: url(imagens/fundo-madeira.jpg)no-repeat top center;
+    background: url(imagens/fundo-parede.jpg)no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 main {
     position: relative;
@@ -59,5 +60,10 @@ section#redes img:hover {
     /*transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);*/
     transition: border .1s ;
+    
+}
+
+
+{
     
 }
